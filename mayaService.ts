@@ -1,5 +1,5 @@
 
-import { SEALS, TONES, SEAL_COLORS } from '../constants';
+import { SEALS, TONES, SEAL_COLORS } from './constants';
 import { KinData } from '../types';
 
 /**
