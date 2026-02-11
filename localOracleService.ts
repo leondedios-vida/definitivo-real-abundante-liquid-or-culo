@@ -1,6 +1,6 @@
 
-import { KinData, OracleRevelation } from "../types";
-import { getStaticRevelation } from "../data/staticOracle";
+import { KinData, OracleRevelation } from "./types";
+import { getStaticRevelation } from "./staticOracle";
 
 export const getOracleRevelation = async (kin: KinData, userName: string): Promise<OracleRevelation> => {
   // Simulamos un tiempo de espera para mantener la solemnidad y el "peso" del cálculo
